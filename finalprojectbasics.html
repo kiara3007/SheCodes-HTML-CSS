@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title> KIARA MANICKUM</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap"
+			rel="stylesheet"
+		/>
+<style>
+  body {
+	display: inline-block;
+	color: #8b27a1;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-weight: 400;
+	padding: 0 15% 0 15%;
+	margin: 20px 0 0 0;
+	background: rgba(235, 169, 226, 0.07);
+}
+
+h1,
+h3 {
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 900;
+}
+
+h1 {
+	line-height: 40px;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	text-align: center;
+}
+
+li {
+	display: inline;
+	padding: 2px;
+	color: none;
+}
+
+button {
+	border-radius: 25px;
+	box-shadow: 2px 2px 1px 0px rgba(180, 34, 132, 0.7);
+	margin: 0 auto;
+	display: block;
+	background-color: rgba(187, 119, 224, 0.8);
+	border: 1px solid rgba(212, 79, 201, 0.8);
+	color: #c24693;
+	font-size: 24px;
+  font-style: bold;
+	line-height: 18px;
+	padding: 10px 12px;
+	text-decoration: none;
+
+	transition: all 200ms ease;
+}
+button:hover {
+	cursor: pointer;
+	color: rgba(3, 1, 13, 0.8);
+	background: rgba(101, 26, 67, 0.7);
+	box-shadow: 2px 2px 1px 0px rgba(174, 92, 182, 0.8);
+	border: 1px solid rgba(170, 84, 170, 0.8);
+}
+
+.header-footer-section {
+	text-align: center;
+
+}
+
+.sub-header-h1 {
+	color: #d418c4;
+}
+</style>
+	</head>
+	<body>
+		<div class="header-footer-section">
+			<br />
+			<br />
+			<img
+				src="https://www.frostscience.org/wp-content/uploads/2022/02/Women-in-STEM.png"
+				width="400px"
+			/>
+			<h1>
+				WOMEN IN STEM 👩‍👧 <br />
+				<span class="sub-header-h1">EMPOWERED WOMEN EMPOWER WOMEN</span>
+			</h1>
+		
+		</div>
+		<div class="middle-section">
+			<h3> WHY IS STEM IMPORTANT? 🛠 
+			<br />
+			<br />
+			Many women are often pushed into tradional roles of home-maker, artist, and cooking
+      BUT women are so much more than their stereotypical norms. Women can be doctors, engineers
+      and scientists. As a fellow woman in STEM, I believe less females are given opportunites and
+      empowerment to chase these dreams. As an engineer and future developer, this is the future
+      of our world.
+			<br />
+			<br />
+		</div>
+		<br />
+		<div class="header-footer-section">
+			<button> TAP FOR FUN </button>
+			<p><em>This page was coded by  </em> <br> <strong>  KIARA MANICKUM 👩‍🏭 </strong> </br>  </p>
+			<br />
+		</div>
+
+	</body>
+  <script>
+    function clickMe() {
+	let name = prompt("What is your name?");
+	let tableau = prompt(`👋🏽 Hello ${name}, interested in becoming a women in STEM?(y/n)`);
+
+	if (tableau === "y") {
+		alert(
+			"Check out https://www.shecodes.io/ for more information"
+		);
+	} else {
+		alert(
+			"Well, you should still check out https://www.shecodes.io/. You will thank me later!"
+		);
+	}
+}
+let clickMeButton = document.querySelector("button");
+clickMeButton.addEventListener("click", clickMe);
+
+  </script>
+</html>
